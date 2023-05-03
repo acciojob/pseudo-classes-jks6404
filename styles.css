@@ -1,1 +1,31 @@
 /*  your css code here. If applicable */
+/*  your css code here. If applicable */
+/* .*{
+	background-color:rgb(135, 206, 235);
+} */
+/* body{
+	background-color: rgb(135, 206, 235);
+} */
+:root{
+	background-color:rgb(135, 206, 235);
+} 
+p:first-child{
+	background-color:black;
+	color:white;
+}
+p:nth-child(4n){
+	color:red;
+/* 	background-color:green; */
+}
+li:first-child{
+	background-color:white;
+}
+li:nth-child(2n){
+	background-color:slategray;
+}
+li:nth-child(3n){
+	background-color:pink;
+}
+li:last-child{
+	background-color:white;
+}
